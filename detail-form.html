@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>PAYMENT FORM</title>
+    <link rel="stylesheet" href="detail-form.css">
+</head>
+<body>
+    
+
+    <main>
+        <div class="container">
+        <form action="preview.cfm" method="post">
+          <h2>Step 1:Your Details </h2>
+          <label for="Name">Name:</label>
+          <input type="text" id="Name" name="Name"><br>
+       
+          <br>
+          <label for="Email">Email: </label>
+          <input type="text" id="Email" name="Email"><br>
+          <br>
+          
+          <br>
+          <label for="Phone">Phone: </label>
+          <input type="text" id="Phone" name="Phone"><br>
+          <br>
+          
+          <h2>Step 2:Delivery address</h2>
+          <br>
+          <label for="Address">Address: </label>
+          <input type="text" id="Address" name="Address"><br>
+          <br>
+          
+          <label for="Post-code">Post-code: </label>
+          <input type="text" id="Post-code" name="Post-code"><br>
+          <br>
+          
+          <label for="Country">Country: </label>
+          <input type="text" id="Country" name="Country"><br>
+          <br>
+          
+          <h2>Step 3: Card details</h2>
+          <label>Card type:</label><br>
+          <!-- <input type="text" id="Car_type" name="Card type"><br> -->
+          <input type="radio" id="visa" value="visa" name=user_card>
+          <label for="visa" class="light">Visa</label>
+          <input type="radio" id="amex" value="amex" name="user_card">
+          <label for="amex" class="light">AmEx</label>
+          <input type="radio" id="mastercard" value="mastercard" name="user_card">
+          <label for="mastercard" class="light">Mastercard</label><br>
+
+          <label for="ccnum" class= "cnum">Credit card number </label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"><br>
+            <label for="cvv" class="cw">CVV</label>
+            <input type="text" id="cvv" name="cvv" placeholder="352"><br>
+            <label for="cname" class="cnam">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe"><br>
+
+        
+             <input type="submit" value="BUY IT" class="btn">
+        
+       </form>
+       </div>
+     </main>
+</body>
+
+</html>
