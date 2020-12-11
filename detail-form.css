@@ -1,7 +1,15 @@
+
+
+
 .container {
     border-radius: 5px;
     background-color: #e7eb10;
     padding: 20px;
+    max-width:1000px;
+    margin: auto;
+    
+   
+
 
 }
 
@@ -16,13 +24,58 @@ input[type=submit]:hover {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    
   }
+  .buttonHolder{ 
+    text-align: center;
+    font-size: 20px;
+    }
 
-  .container {
-    height: 100%;
-  width: 100%;
-  
-  
-  
- 
-  }
+
+ .details input{
+     margin-left: 30px;
+     border: 5px solid white;
+ }
+
+ .address input{
+     margin-left:25px;
+     border: 5px solid white;
+ }
+
+ .card-details input{
+     margin-left:10px;
+     border: 5px solid white;
+     
+ } 
+ .card-details label{
+     margin-left: 10px;
+}
+
+.address label{
+    margin-left: 10px;
+}
+
+.details label{
+    margin-left: 10px;
+}
+
+ .box {
+     border-style: double;
+     border-color:white;
+     border-radius: 5px;
+     margin-bottom: 5px; 
+     padding: 20px;
+     background-color: rgb(189, 255, 127);
+     border-width:
+    }  
+
+   
+
+
+ h2{
+    margin-left:10px;
+}
+    
+.container{
+    position
+}
